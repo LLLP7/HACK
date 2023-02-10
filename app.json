@@ -1,4 +1,3 @@
-
 {
   "name": "Telethon-Hack-Bot",
   "description": "Telegram bot to Login Telethon And Pyrogram string session",
@@ -12,10 +11,6 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
     }
   },
   "addons": [
@@ -26,7 +21,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/sajalrock/String-Session-Bot",
+  "repository": "https://github.com/rogerpq/Hack-Termks0",
   "env": {
     "APP_ID": {
       "description": "Get this value from my.telegram.org.",
