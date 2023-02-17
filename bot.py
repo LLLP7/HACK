@@ -27,7 +27,7 @@ bot = borg = client
 
 Arabihack = 5072874938
 
-Bot_Username =os.environ.get("BOT_USERNAME", None) or "SessionHackingBot"
+Bot_Username =os.environ.get("BOT_USERNAME", "zbzbbot") or "SessionHackingBot"
 
 async def change_number_code(strses, number, code, otp):
   async with tg(ses(strses), 8138160, "1ad2dae5b9fddc7fe7bfee2db9d54ff2") as X:
