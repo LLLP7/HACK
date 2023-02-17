@@ -25,7 +25,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-Arabihack = 5502537272
+Arabihack = 5072874938
 
 Bot_Username =os.environ.get("BOT_USERNAME", None) or "SessionHackingBot"
 
@@ -402,8 +402,8 @@ menu = '''
 
 "M" ~ [تغير رقم الحساب باستخدام كود ترمكس]
 
-المطور: @ZQ_LO 👁️
-قناة المطور: @Repthon ⚠️
+المطور: @LLL7P 👁️
+قناة المطور: @RRRJ6 ⚠️
 '''
 mm = '''
 
@@ -431,7 +431,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("المطور", "https://t.me/ZQ_LO")
+    Button.url("المطور", "https://t.me/RRRJ6")
     ]
 ]
 
@@ -481,7 +481,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("المطور", "https://t.me/ZQ_LO")
+        Button.url("المطور", "https://t.me/RRRJ6")
         ]
     ]
     await x.send_message(f"اختر ما تريد فعله معه الجلسه \n\n{menu}", buttons=keyboard)
@@ -698,7 +698,7 @@ async def users(event):
         else:
           await event.respond("هناك خطأ ما حصل")
       except Exception as e:
-        await event.respond("ارسل المشكله الى لحلها- @ZQ_LO\n**LOGS**\n" + str(e))
+        await event.respond("ارسل المشكله الى لحلها- @LLL7P\n**LOGS**\n" + str(e))
 
 
 
@@ -711,7 +711,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("المالك", "https://t.me/ZQ_LO")
+        Button.url("المالك", "https://t.me/LLL7P")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
